@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./App.css" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <div class="contact-container">
+            <div class="contact-box">
+             <h2>Contact Us</h2>
+            <div class="flex"> 
+                <div class="contact-info"> 
+             
+              <p> Do you have any questions or other concerns? Then simply contact us
+                 at <a href="tel:0176/70834316">0176/70834316</a> <br>,or write to us at
+                 <a href="mailto: info@bentofoodtruck.de ">info@bentofoodtruck.de</a>
+                 or use the contact form below.</p>
+              <p>For more information, visit us on our social media channels:</p>
+         
+           </div>
+        
+        <div>
+          <form>
+            <fieldset>
+              <legend>Contact Us</legend>
+              <div class="name">
+                <label for="first_name">Your Name:<span>*</span></label>
+                <input type="text" name="firstName" id="first_name" required />
+              </div>
+              <div class="email">
+                <label for="Email">Email:<span>*</span></label>
+                <input
+                  type="email"
+                  name="email"
+                  id="Email"
+                  placeholder="smithbob@gmail.com"
+                  required
+                />
+              </div>
+              <div class="number">
+                <label for="phone">Phone Number:(optional)</label>
+                <input type="number" name="phn" id="phone" />
+              </div>
+              <div class="message">
+                <label for="message">Your Message:</label>
+                <textarea
+                  name="msg"
+                  id="message"
+                  min="5"
+                  max="150"
+                  rows="5"
+                  cols="62"
+                ></textarea>
+              </div>
+              <div class="contact">
+                <label for="contact">How do you like to be contacted?</label>
+                <label for="contactP">phone</label>
+                <input type="radio" name="Contact" id="contactP" />
+                <label for="contactE">email</label>
+                <input type="radio" name="Contact" id="contactE" />
+              </div>
+              <div class="button">
+                <input type="submit" />
+              </div>
+            </fieldset>
+          </form>
+        </div>
+    </div>
+           
+        </div>
+    
+       
+    </div>
+  </body>
+</html>
